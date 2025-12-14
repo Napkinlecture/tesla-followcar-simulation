@@ -7,16 +7,7 @@ This research implements a **biologically-inspired pursuit-evasion model** appli
 
 **Key Insight:** Hunter-prey pursuit strategies in wildlife (b₁, b₂, b₃ dynamics) can optimize **vehicle platooning efficiency** by 15-30% while maintaining safe distances.
 
-## 📊 Key Results
-- **23% fuel efficiency improvement** in simulated highway platoons
-- **Safe distance optimization** via adaptive boid rules (collision rate: 0.01%)
-- **Real-time stability** proven for 3-vehicle formations (Lyapunov analysis)
-- **Patent-pending algorithm** for cooperative pursuit strategies
+## 🙏 Acknowledgements
 
-## 🎮 Live Simulation
-```bash
-# Run the basic pursuit-evasion simulation
-python demonstrations/live_simulations/basic_pursuit.py 100 200 300 400 500 600
-
-# Run Tesla highway scenario
-python demonstrations/live_simulations/tesla_scenario.py --cars=5 --speed=65
+- This project extends the visualization framework from **[Joseph Bakulikira's Flocking Simulation](https://github.com/Josephbakulikira/simple-Flocking-simulation-python-pygame)**.
+- The core pursuit-evasion engine (`commotion.py`) was developed independently for automotive platooning applications.
