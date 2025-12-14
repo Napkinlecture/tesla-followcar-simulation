@@ -1,0 +1,22 @@
+# TESLA PROJECT SETUP 
+ 
+## FILL THESE 3 VALUES FIRST: 
+1. YOUR_EMAIL="your-email@example.com" 
+2. YOUR_TOKEN="ghp_your_actual_token_here" 
+3. YOUR_NAME="Napkinlecture" 
+ 
+## RUN IN THIS ORDER: 
+1. Edit SETUP_TOKEN.bat - Fill in your email and token 
+2. Run SETUP_TOKEN.bat - Configures Git with your credentials 
+3. Run GIT_TOOLS\1_CLONE.bat - Clones your repository 
+4. Copy files to tesla-followcar-simulation folder: 
+   - slider.py (from original repo) 
+   - constants.py (from original repo) 
+   - YOUR commotion.py (modified) 
+5. Run GIT_TOOLS\3_FILES.bat - Creates support files 
+6. Run GIT_TOOLS\2_PUSH.bat - Pushes to GitHub (use token when prompted) 
+ 
+## FINAL STEP ON GITHUB: 
+1. Go to: https://github.com/Napkinlecture/tesla-followcar-simulation 
+2. Create Pull Request: tesla_model -
+3. Merge it! 
