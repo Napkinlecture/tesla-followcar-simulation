@@ -86,4 +86,4 @@ Running the simulation demonstrates the viability of using pursuit-evasion rules
 *   **Academic Inspiration:** Draws upon principles from computational ethology, differential equations, and multi-agent systems.
 
 ---
-**Built by [Your Name/ Napkinlecture] | [View on GitHub](https://github.com/Napkinlecture/tesla-followcar-simulation)**
+**Built by Andriansyah | [View on GitHub](https://github.com/Napkinlecture/tesla-followcar-simulation)**
